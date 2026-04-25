@@ -11,7 +11,6 @@ header {
     text-align: center;
     padding: 15px;
 }
-
 header h1 {
     color: #004080;
     font-size: 28px;
@@ -42,13 +41,20 @@ nav ul li a:hover {
 
 /* Contenido principal centrado */
 main {
-    text-align: center; /* 🔑 centra todo el contenido */
+    text-align: center;
     padding: 20px;
 }
 
 main h2 {
     color: #006600;
-    font-size: 22px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main h3 {
+    color: #004080;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 main p {
@@ -60,6 +66,48 @@ main p {
 main img {
     display: block;
     margin: 15px auto;
+}
+
+/* Estilos para listas de receta */
+main ul {
+    list-style-type: square;
+    text-align: left;
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+}
+
+main ol {
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px;
+}
+
+main li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+/* Estilos para tablas de horario */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+th {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 8px;
+    color: #222;
 }
 
 /* Pie de página */
